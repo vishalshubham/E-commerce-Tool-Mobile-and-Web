@@ -1,0 +1,505 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#MainFrame {
+	height: 100%;
+	width: 1003px;
+	border: 1px solid #CCC;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFF;
+}
+#Header {
+	height: 119px;
+	width: 1003px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#HeaderBox {
+	height: 119px;
+	width: 100%;
+	background-color: #FFF;
+}
+
+#MainFrame #Footer {
+	height: 20px;
+	width: 100%;
+	background-repeat: repeat-x;
+	text-align: left;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	background-image: url(../images/footer.png);
+	background-color: #FFFFFF;
+}
+#MenuBox {
+	height: 100%;
+	width: 100%;
+}
+#MainFrameBox {
+	background-image: url(../images/bck.png);
+	width: 1263px;
+}
+
+#MainFrame #body table tr td #News {
+	height: 332px;
+	width: 190px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#MainFrame #SlideShow {
+	height: 250px;
+	width: 100%;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+
+#MainFrame #Navigator {
+	height: 41px;
+	width: 100%;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+}
+
+#MainFrame #body {
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/body.png);
+	background-repeat: repeat-y;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+
+
+.Heading {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #D62408;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.LHeading {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #D62408;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666;
+	text-align: justify;
+	line-height:150%;
+}
+
+.BoldContent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666;
+	text-align: justify;
+	line-height:150%;
+}
+
+.Rheading {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #666;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCC;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Footer {
+	font-size: 8px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #666;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding-top: 6px;
+}
+
+.SmallHeading {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: #D62408;
+	text-decoration: none;
+	text-align: justify;
+	line-height: 17px;
+}
+
+.SmallHeadingWhite {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: justify;
+	line-height: 17px;
+}
+
+.AllTable {
+	border: 1px solid #999;
+}
+
+.AllBoldCentreTable {
+	border: 1px solid #999;
+	text-align:center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#MainFrame #body table tr td table tr .Content table {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.LTable{
+	border-left: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.RTable{
+	border-right: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.LRTable{
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.TTable{
+	border-top: 1px solid #999;
+	background-color:#eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.BTable{
+	border-bottom: 1px solid #999;
+	background-color:#eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.TBTable{
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	background-color:#eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.LTTable{
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.LBTable{
+	border-left: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.RBTable{
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+.RBCentreTable{
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+
+}
+
+.RBBoldTable{
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	text-align:center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.RTTable{
+	border-right: 1px solid #999;
+	border-top: 1px solid #999;
+
+}
+.RTBTable{
+	border-right: 1px solid #999;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.RTBBoldCenterTable{
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-weight: bold;
+
+}
+
+.LTBTable{
+	border-left: 1px solid #999;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+
+.LRBTable{
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.LRBBoldTable{
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	text-align:center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.RTLTable{
+	border-right: 1px solid #999;
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	
+}
+
+.Quote{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #963;
+	text-align: center;
+	
+	
+}
+
+.AllTableRed {
+	border: 1px solid #d60428;
+}
+
+.AllBoldCentreTableRed {
+	border: 1px solid #d60428;
+	text-align:center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#MainFrame #body TableRed tr td TableRed tr .Content TableRed {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.LTableRed{
+	border-left: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.RTableRed{
+	border-right: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.LRTableRed{
+	border-left: 1px solid #d60428;
+	border-right: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.TTableRed{
+	border-top: 1px solid #d60428;
+	background-color:#eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.BTableRed{
+	border-bottom: 1px solid #d60428;
+	background-color:#eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.TBTableRed{
+	border-top: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	background-color:#eeeeee;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.LTTableRed{
+	border-top: 1px solid #d60428;
+	border-left: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.LBTableRed{
+	border-left: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+.RBTableRed{
+	border-right: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+.RBCentreTableRed{
+	border-right: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+
+}
+
+.RBBoldTableRed{
+	border-right: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	text-align:center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.RTTableRed{
+	border-right: 1px solid #d60428;
+	border-top: 1px solid #d60428;
+
+}
+.RTBTableRed{
+	border-right: 1px solid #d60428;
+	border-top: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.RTBBoldCenterTableRed{
+	border-right: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	border-top: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align:center;
+	font-weight: bold;
+
+}
+
+.LTBTableRed{
+	border-left: 1px solid #d60428;
+	border-top: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+}
+
+.LRBTableRed{
+	border-left: 1px solid #d60428;
+	border-right: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.LRBBoldTableRed{
+	border-left: 1px solid #d60428;
+	border-right: 1px solid #d60428;
+	border-bottom: 1px solid #d60428;
+	text-align:center;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.RTLTableRed{
+	border-right: 1px solid #d60428;
+	border-top: 1px solid #d60428;
+	border-left: 1px solid #d60428;
+	
+}
+
+
+#MainFrame #threed {
+	height: 410px;
+	width: 1003px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/3dbck.png);
+	background-repeat: no-repeat;
+}
+#MainFrame #indexbody {
+	background-image: url(../images/indexbody.png);
+	height: 20px;
+	width: 1003px;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+.indexbody {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	color: #666666;
+}

@@ -1,0 +1,182 @@
+<%--
+    Document   : Login
+    Created on : 6 Mar, 2011, 6:02:48 PM
+    Author     : VISHAL
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BEST MART - Best Quality | Price | Service</title>
+    <link type="text/css" href="menushopping.css" rel="stylesheet" />
+    <link href="login-box.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="menu.js"></script>
+    
+
+    <style type="text/css">
+* { margin:0;
+    padding:0;
+}
+body { background:#FFF; }
+div#menu { margin:5px auto; }
+div#copyright {
+    font:11px 'Trebuchet MS';
+    color:#fff;
+    text-indent:30px;
+    padding:40px 0 0 0;
+}
+
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:10;
+}
+    a:link {
+	text-decoration: none;
+	color: #33C;
+}
+a:visited {
+	text-decoration: none;
+	color: #33C;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	color: #33C;
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Header Start -->
+<div id="Header">
+
+<table width="1003" align="center">
+  <tr>
+    <td><img src="images/Header.png" width="900" height="119" border="0" usemap="#Social"></td>
+  </tr>
+</table>
+
+</div>
+<!-- Header End -->
+
+<!-- Menu Start -->
+<div id="menu">
+    <ul class="menu">
+        <li><a href="#"><span>Login</span></a></li>
+        <li><a href="#"><span>Sign Up</span></a></li>
+        <li><a href="discount.html"><span>Discounts & Offers</span></a></li>
+<li class="parent"><a href="#"><span>About Us</span></a>
+         			<!--
+                <ul>                
+                <li><a href="#">Groceries</a></li>
+                <li><a href="#">Fruits</a></li>
+                <li><a href="#">Vegetables</a></li>
+                <li><a href="#">Drinkable</a></li>
+                <li><a href="#">House Hold</a></li>
+                </ul>-->
+	  </li>
+        <li><a href="#"><span>Help</span></a></li>
+        <li><a href="#"><span>Contact Us</span></a></li>
+        <li><a href="discount.html"><span>Privacy & Policy</span></a></li>
+        <li class="parent"><a href="discount.html"><span>Social Networking</span></a>
+        <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">You Tube</a></li>
+                </ul>
+</li>
+    </ul>
+</div>
+<!----><!-- Menu End -->
+
+
+
+<!-- Main Frame Start -->
+<div id="MainFrame"> 
+
+<!-- Dynamic Start -->
+<div id="Dynamic">
+<!-- Heading Table Start-->
+<table width="750" height="10" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="ItemHeading"><h2></h2></td>
+  </tr>
+</table>
+<!-- Heading Table End -->
+<center>
+<table width="555" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td>
+    <div id="login-box" align="center">
+
+        <H2> Login :</H2>
+
+<br />
+
+
+
+<form action="/MBA/htmllogin">
+<div id="login-box-name" style="margin-top:20px;">User Name:</div><div id="login-box-field" style="margin-top:20px;"><input type="text" name="username" class="form-login" title="Username" value="" size="30" maxlength="2048" /></div>
+<div id="login-box-name">Password:</div><div id="login-box-field"><input name="password" type="password" class="form-login" title="Password" value="" size="30" maxlength="2048" /></div>
+                <%
+                    Object loginMsg = session.getAttribute("LOGINMSG");
+                    if(loginMsg != null)
+                        {
+                            session.removeAttribute("LOGINMSG");
+                %>
+
+                         <%= loginMsg %>
+
+                <%
+                        }
+
+                %>
+
+<br />
+<span class="login-box-options"><input type="checkbox" name="1" value="1"> Remember Me <a href="#" style="margin-left:30px; color: #FFF;">Forgot password?</a></span>
+<br />
+<br />
+<!--<a href="#"><img src="images/login-btn.png" width="103" height="42" style="margin-left:90px;" /></a>-->
+<input type="submit" name="Login" value="    Login    "/>
+</form>
+
+
+
+
+
+</div>
+    </td>
+  </tr>
+</table>
+
+
+</center>
+
+
+</div>
+<!-- Dynamic End -->
+
+</div>
+<!-- Main Frame End -->
+
+
+
+<map name="Social">
+  <area shape="rect" coords="626,58,675,106" href="http://www.facebook.com/" target="_blank">
+  <area shape="rect" coords="689,58,734,106" href="http://www.twitter.com/" target="_blank">
+  <area shape="rect" coords="748,59,797,105" href="http://www.youtube.com/" target="_blank">
+</map>
+</body>
+</html>

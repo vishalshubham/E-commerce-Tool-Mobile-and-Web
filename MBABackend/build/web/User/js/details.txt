@@ -1,0 +1,1 @@
+this is jquery for brand bar on discount page

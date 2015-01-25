@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>LoginCheck</servlet-name>
+        <servlet-class>com.mba.user.login.LoginChecker</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ItemCategoryGetter</servlet-name>
+        <servlet-class>com.mba.user.Item.ItemCategoryGetter</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ItemListGetter</servlet-name>
+        <servlet-class>com.mba.user.Item.ItemListGetter</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MainHandlerServlet</servlet-name>
+        <servlet-class>com.mba.user.main.MainHandlerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginCheck</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ItemCategoryGetter</servlet-name>
+        <url-pattern>/ItemCategory</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ItemListGetter</servlet-name>
+        <url-pattern>/ItemList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MainHandlerServlet</servlet-name>
+        <url-pattern>/MainHandler</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

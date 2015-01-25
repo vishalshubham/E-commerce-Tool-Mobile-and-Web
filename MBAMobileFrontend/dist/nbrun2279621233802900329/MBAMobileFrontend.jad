@@ -1,0 +1,8 @@
+MIDlet-1: MobileMidlet, , com.MobileMidlet
+MIDlet-Jar-Size: 47683
+MIDlet-Jar-URL: MBAMobileFrontend.jar
+MIDlet-Name: MBAMobileFrontend
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
